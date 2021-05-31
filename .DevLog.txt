@@ -1,0 +1,43 @@
+------------- UNITY DEV ----------------
+
+- TODO MINIMUM VIABLE PRODUCT
+support Bytes extension
+Add Versioning Checks ( set version as 2020 )
+
+- TODO THINGS TO TEST
+Test Trigger Events and optimize process
+Test Track Objects
+Test Unim Cache
+Test, frame perfect accurate playback.
+Test Building unim to device
+Test Sorting Layer
+
+- TODO FUTURE
+Fix all warning from serializer and AssetPath modules
+see if MAIN Fade Color functions can be changed so that it does not include null check (optimization)
+Add support for Unity2D Lightning ( 2019.3 or later )
+Add support for shader graph materials
+Create DOTS Implementation
+
+---------- LINKS ----------
+- Modifying sprite vertices
+	https://docs.unity3d.com/ScriptReference/Sprite-vertices.html
+
+- Python library to read and write from SWF files
+	https://github.com/timknip/pyswf
+
+- Documentation for SWF file format
+	https://www.adobe.com/devnet/swf.html
+	https://www.adobe.com/content/dam/acom/en/devnet/pdf/swf-file-format-spec.pdf
+
+- C++ SWF intergeration
+	https://www.codeproject.com/Articles/269829/Communicate-with-Flash-Send-or-Get-data-from-to-a
+
+--------- GENERAL NOTES --------------------
+- Following run methods from  from inspector. Great for testing and debugging
+	[Contextmenu]("Do Something")] 
+	void DoSomething()
+	{
+	    Debug.Log("Perform operation");
+	}
+
